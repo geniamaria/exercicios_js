@@ -9,9 +9,9 @@ let obj = '{"employees":[' +
 
 
 
-const myJon = JSON.stringify(text);
-console.log(JSON.parse(text));
-console.log(JSON.stringify(text));
+//const myJon = JSON.stringify(text);
+console.log(JSON.parse(obj));
+console.log(JSON.stringify(obj));
 
 
 
