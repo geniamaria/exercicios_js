@@ -3,11 +3,14 @@
 as propriedades. 
  */
 
-let obj1 = { name: "Maria", surname: "Moiane" };
-let obj2 = { name: "Lucas", surname: "Moiane" };
+let obj1 = { name: "Maria" };
+let obj2 = { surname: "Moiane" };
 
-let famile = {
-    ...obj1,
-    ...obj2
-};
-console.log(famile);
+
+
+let fusao = () => {
+
+    return obj_fusao = { ...obj1, ...obj2 };
+
+}
+console.log(fusao());
